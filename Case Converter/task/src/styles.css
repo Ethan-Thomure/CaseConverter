@@ -1,0 +1,29 @@
+.universe {
+    margin: 10px;
+    width: 100%;
+    height: 80%;
+}
+
+.title {
+    font-size: 15pt;
+    font-family: sans-serif;
+}
+
+textarea {
+    float: top;
+    width: 80%;
+    height: 40rem;
+    margin: 10px 0;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    /*font-size: 300px*/
+}
+
+#upper-case, #lower-case, #proper-case, #sentence-case, #save-text-file {
+    background-color: coral;
+    border: none;
+    font-size: 12pt;
+}
